@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main()
-{   int n;
+{  
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int n;
     cin>> n;
     for(int i=0;i<n;i++){
         string s;
@@ -9,9 +12,9 @@ int main()
         string s1=s;
         reverse(s1.begin(), s1.end());
         if(s==s1)
-            cout << "Case" <<" "<< i+1 <<": "<<"Yes" << endl;
+            cout << "Case" <<" "<< i+1 <<": "<<"Yes\n";
         else
-        cout << "Case" <<" "<< i+1 <<": "<<"No"<< endl;
+        cout << "Case" <<" "<< i+1 <<": "<<"No\n";
     }
 
 

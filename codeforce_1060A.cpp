@@ -15,3 +15,4 @@ int ans = min(cnt,n/11);
 cout << ans << endl;
 
 }
+
